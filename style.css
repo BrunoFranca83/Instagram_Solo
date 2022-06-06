@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.Container_Pai{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 935px;
+}
