@@ -20,22 +20,12 @@ body{
 }
 
 .lado_esquerdo{
-    display: Flex;
+    display: flex;
     flex-direction: column;
     align-content: center;
     text-align: center;
     width: 60%;
     border: 3px solid rgb(98, 0, 38);
-}
-
-.Box2_LadoDireito{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    border: 3px solid rgb(255, 60, 0);
-    margin: 15px;
 }
 
 .Box1_LadoDireito{
@@ -45,6 +35,16 @@ body{
     justify-content: center;
     width: 40%;
     border: 3px solid blue;
+    margin: 15px;
+}
+
+.Box2_LadoDireito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: 3px solid rgb(255, 60, 0);
     margin: 15px;
 }
 
